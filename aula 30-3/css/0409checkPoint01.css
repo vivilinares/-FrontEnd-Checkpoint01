@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Allison;
+}
+
+body {
+    background: url("../img/rioBondinhopano.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-size:20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background-color: rgba(10, 10, 10, 0.7);
+    padding: 5px 0px;
+    width: 30%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    background-color: #e9d995;
+    padding: 5px;
+    text-align: center;
+    border-collapse: 0 0 60px 0px;
+    width: 100%;
+}
+
+
+/*
+border-radius: 0 0 30px 30px;
+título do cabeçalho
+*/
+
+.header__title {
+    font-family: "Allison", Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: rgb(238, 30, 30) 0.1em 0.1em 0.3em;
+}
+
+.content {
+    position: initial;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.content__text {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgb(10, 10, 10, 0.7);
+    padding: 15px 10px;
+    text-align: center;
+    color:#e9d995;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.content__text p {
+    padding: 10px;
+}
+
+.content__video {
+    margin-bottom: 10px;
+}
+
+.content__lista {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #e9d995;
+    text-shadow: rgb(175, 20, 162) 0.1em 0.1em 0.3em;
+}
+
+.content__subtitle {
+    font-family: "Allison", Arial, Helvetica, sans-serif;
+    margin-right: 1500px;
+    font-size: 4rem;
+}
+
+.fa {
+    color: white;
+    font-size: 40px;
+}
+
+.fa-instagram {
+    margin-right: 50 px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    left: 50%;
+    width: 30%;
+    transform: translate(-50%);
+    background-color: #141413 #e6ce64;
+    text-shadow: black 0.1em 0.1em 0.3em;
+}
+
+@media only screen and (max-width: 499px) {
+    .content {
+        width: 550px;
+    }
+}

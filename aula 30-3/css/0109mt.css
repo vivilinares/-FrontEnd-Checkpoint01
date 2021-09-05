@@ -1,0 +1,96 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://gooutside.com.br/wp-content/uploads/sites/3/2020/03/oleos-essenciais.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 15px 10px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(199, 27, 79);
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(231, 173, 228);
+  color: white;
+}
+
+a {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  height: 2000px;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 100px;
+}
+
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+
+.box{
+  widht: 100vw;
+  height: 200px;
+  background-color:rgb(214, 197, 43)
+}
+
+.title {
+  top:100px;
+  position: sticky;
+  color: rgb(230, 115, 186)
+  z-index: -1;
+  transform: translate (-50%, -50%);
+}
+
